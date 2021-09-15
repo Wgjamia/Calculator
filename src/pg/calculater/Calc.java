@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Calc {
 	public static void main(String[] args) {
-
+	
 
 		char operator;
 		Double n1, n2, result;
