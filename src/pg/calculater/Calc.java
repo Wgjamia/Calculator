@@ -3,6 +3,15 @@ package pg.calculater;
 import java.util.Scanner;
 
 public class Calc {
+	
+	static boolean contains(char c, char[] array) {
+		for (char x : array) {
+			if (x == c) {
+				return true;
+			}
+		}
+		return false;
+	}
 	public static void main(String[] args) {
 
 
